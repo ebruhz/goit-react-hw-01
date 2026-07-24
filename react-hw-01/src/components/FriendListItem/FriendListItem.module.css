@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #111111;
+  border-radius: 8px;
+  width: 120px;
+  
+  
+}
+
+.name {
+  margin: 8px 0 4px;
+  font-size: 18px;
+  color: #111111;
+}
+
+.online {
+  margin: 0;
+  font-size: 14px;
+  color: green;
+}
+
+.offline {
+  margin: 0;
+  font-size: 14px;
+  color: red;
+}
